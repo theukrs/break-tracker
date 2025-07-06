@@ -12,7 +12,7 @@ total_time = 0
 break_on = False
 window = Tk()
 window.minsize(450,290)
-window.title("Break Tracker – v{__version__}")
+window.title(f"Break Tracker – {__version__}")
 window["bg"] = BGCOLOR
 window["padx"] = 5
 
