@@ -1,4 +1,5 @@
 # Break Tracker 🕒
+**Version:** 0.1.0
 
 A simple Python GUI app to help you track your break durations more effectively. Built using `tkinter`, this tool is designed to assist you in maintaining a healthy work-break balance during long sessions.
 
