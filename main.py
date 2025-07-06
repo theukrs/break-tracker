@@ -1,3 +1,5 @@
+__version__ = "0.1.1"
+
 from tkinter import *
 import math  
 
@@ -10,13 +12,18 @@ total_time = 0
 break_on = False
 window = Tk()
 window.minsize(450,290)
-window.title("Break Counter")
+window.title("Break Tracker – v{__version__}")
 window["bg"] = BGCOLOR
 window["padx"] = 5
 
-with open("data.txt","r") as file:
-    content = int(file.read())
-    total_time = content
+try:
+    with open("data.txt","r") as file:
+        content = int(file.read())
+        total_time = content
+
+except FileNotFoundError:
+    with open("data.txt", "w") as file:
+        file.write(str(0))
     
 def toggle_timer():
     global break_on
