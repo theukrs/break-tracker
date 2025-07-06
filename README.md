@@ -1,5 +1,5 @@
 # Break Tracker 🕒
-**Version:** 0.1.0
+![version](https://img.shields.io/badge/version-v0.1.1-blue)
 
 A simple Python GUI app to help you track your break durations more effectively. Built using `tkinter`, this tool is designed to assist you in maintaining a healthy work-break balance during long sessions.
 
@@ -10,7 +10,8 @@ A simple Python GUI app to help you track your break durations more effectively.
 - Start/Stop break timer with a single click
 - Live timer display using `Canvas` and custom time formatting
 - Persistent break history saved in a local file (`data.txt`)
-- Total break duration displayed after each session
+- Automatically creates `data.txt` if missing (added in v0.1.1)
+- Displays the current version in the window title
 - Clean UI with customizable color themes
 
 ---
@@ -28,7 +29,7 @@ _(Add a screenshot or GIF of your app here later for visual impact)_
 
 ---
 
-## 📁 Setup
+## 📦 Setup
 
 1. Clone this repo:
    ```bash
