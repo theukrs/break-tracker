@@ -25,7 +25,9 @@ A simple Python GUI app to help you track your break durations more effectively.
 ---
 
 ## 📷 Screenshot  
-_(Add a screenshot or GIF of your app here later for visual impact)_
+<p align="center">
+  <img src="https://github.com/theukrs/break-tracker/blob/main/demo.gif?raw=true" alt="Break Tracker Demo">
+</p>
 
 ---
 
