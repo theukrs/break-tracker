@@ -3,7 +3,7 @@
 All notable changes to this project will be documented here.
 
 ---
-## [v0.1.0] – 2025-07-19
+## [v0.1.2] – 2025-07-19
 ### 🛠 Refactoring
 - Extracted timer logic into a separate Counter class (counter.py)
 - Simplified main.py by delegating timer functionality
