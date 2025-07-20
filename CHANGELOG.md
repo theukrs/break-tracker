@@ -3,6 +3,13 @@
 All notable changes to this project will be documented here.
 
 ---
+## [v0.1.0] – 2025-07-19
+### 🛠 Refactoring
+- Extracted timer logic into a separate Counter class (counter.py)
+- Simplified main.py by delegating timer functionality
+- Codebase is now more modular and easier to maintain
+
+---
 
 ## [v0.1.1] – 2025-07-06
 ### ✨ Improvements
@@ -21,3 +28,4 @@ All notable changes to this project will be documented here.
 - Displays live timer using `Canvas` and formatted time
 - Stores total break duration in `data.txt`
 - Clean UI with customizable colors
+
