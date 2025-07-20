@@ -1,5 +1,5 @@
-# Break Tracker 🕒
-![version](https://img.shields.io/badge/version-v0.1.1-blue)
+# Break Tracker 🕒  
+![version](https://img.shields.io/badge/version-v0.1.2-blue)
 
 A simple Python GUI app to help you track your break durations more effectively. Built using `tkinter`, this tool is designed to assist you in maintaining a healthy work-break balance during long sessions.
 
@@ -7,20 +7,29 @@ A simple Python GUI app to help you track your break durations more effectively.
 
 ## 🚀 Features
 
-- Start/Stop break timer with a single click
-- Live timer display using `Canvas` and custom time formatting
-- Persistent break history saved in a local file (`data.txt`)
-- Automatically creates `data.txt` if missing (added in v0.1.1)
-- Displays the current version in the window title
-- Clean UI with customizable color themes
+- Start/Stop break timer with a single click  
+- Live timer display using `Canvas` and custom time formatting  
+- Persistent break history saved in a local file (`data.txt`)  
+- Automatically creates `data.txt` if missing  
+- Displays the current version in the window title  
+- Clean UI with customizable color themes  
+- **Modular code structure using `Counter` class** *(added in v0.1.2)*
+
+---
+
+## 🆕 Changelog – v0.1.2
+
+- Refactored timer logic into a separate `Counter` class (`counter.py`)  
+- Improved code readability and structure  
+- Prepped for easier expansion (settings, theming, etc.)
 
 ---
 
 ## 🛠️ Tech Stack
 
-- Python 3
-- Tkinter GUI
-- Basic file I/O for persistent tracking
+- Python 3  
+- Tkinter  
+- File I/O (for persistent tracking)
 
 ---
 
