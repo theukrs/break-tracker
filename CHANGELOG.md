@@ -3,6 +3,24 @@
 All notable changes to this project will be documented here.
 
 ---
+## [v0.2.0] – 2025-08-10
+### ✨ New Features
+- Added toast-style notifications for break start, end, and reset
+- Added millisecond precision to live timer display
+- New settings window with options to:
+      - Reset total break time
+      - Switch between mm:ss and mm:ss:ms formats
+
+### 🎨 UI/UX
+- Updated color scheme and refined button styles for better readability
+- Improved layout consistency across main and settings windows
+
+### 🛠 Refactoring
+- Enhanced Counter class to support new time formats and settings
+- Codebase prepared for easier feature expansion in future releases
+
+---
+
 ## [v0.1.2] – 2025-07-19
 ### 🛠 Refactoring
 - Extracted timer logic into a separate Counter class (counter.py)
@@ -28,4 +46,5 @@ All notable changes to this project will be documented here.
 - Displays live timer using `Canvas` and formatted time
 - Stores total break duration in `data.txt`
 - Clean UI with customizable colors
+
 
