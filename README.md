@@ -8,20 +8,26 @@ A simple Python GUI app to help you track your break durations more effectively.
 ## 🚀 Features
 
 - Start/Stop break timer with a single click  
-- Live timer display using `Canvas` and custom time formatting  
+- Live timer display with millisecond precision
+- Toast-style notifications for break start, end, and reset
 - Persistent break history saved in a local file (`data.txt`)  
-- Automatically creates `data.txt` if missing  
+- Automatically creates `data.txt` if missing
+- Settings window with options to:
+      - Reset total break time
+      - Switch between mm:ss and mm:ss:ms formats
 - Displays the current version in the window title  
 - Clean UI with customizable color themes  
 - **Modular code structure using `Counter` class** *(added in v0.1.2)*
 
 ---
 
-## 🆕 Changelog – v0.1.2
+## 🆕 Changelog – v0.2.0
 
-- Refactored timer logic into a separate `Counter` class (`counter.py`)  
-- Improved code readability and structure  
-- Prepped for easier expansion (settings, theming, etc.)
+- Added toast-style notifications for key events (break start/end/reset)
+- Added settings window with reset and time format options
+- Millisecond-precision live timer
+- Improved UI color consistency and styles  
+- Updated main window layout for better readability
 
 ---
 
